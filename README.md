@@ -2,6 +2,8 @@
 This project is a simple but effective autoclicker for Idle Slayer on Linux.
 It utilizes the XLib library to click only when the cursor is above the window.
 
+*This is my first C project, so my code may suck!*
+
 ## Running
 Download the executable file in the releases tab and execute it with 1 argument that specifies the CPS. \
 For example: './main 16'
