@@ -11,6 +11,8 @@ For example:
 foo@bar:~$ ./main 16
 ```
 
+You can stop the program by clicking `K`.
+
 *This is only tested on Fedora Linux. When the path to your Xlib differs, you may have to rebuild the executable.*
 
 ## Building

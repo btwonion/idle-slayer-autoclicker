@@ -120,10 +120,12 @@ void click_in_center(Display *display, Window *root_window, Window *is_window, X
         
         event.type = ButtonPress;
         XSendEvent(display, PointerWindow, True, ButtonPressMask, &event);
+        XFlush(display);
+
+        usleep(5E4);
 
         event.type = ButtonRelease;
         XSendEvent(display, PointerWindow, True, ButtonReleaseMask, &event);
-
         XFlush(display);
 
         usleep(ms_interval);
